@@ -3,3 +3,5 @@ const myBoys = ["Emil", "Tobias", "Linus"];
 
 const myChildren = myGirls.concat(myBoys);
 console.log(myChildren);
+console.log(myGirls[0]);
+

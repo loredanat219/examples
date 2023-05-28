@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>For each example</title>
+</head>
+
+<body>
+    <h1>for each example</h1>
+    <p id="demo"></p>
+    <script>
+        const numbers = [45, 4, 9, 16, 25];
+        let text = "";
+
+        numbers.forEach(myFunction);
+        document.getElementById("demo").innerHTML=text;
+
+        function myFunction(value, index, array) {
+            text += value + "<br>";
+        }
+
+    </script>
+</body>
+
+</html>

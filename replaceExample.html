@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Replace part of a string</title>
+</head>
+
+<body>
+    <h1>Replace Microsoft with W3school</h1>
+
+    <button onclick="replaceMessage()">Try it</button>
+    <p id="demo">Come and visit Microsoft</p>
+
+    <script>
+        function replaceMessage() {
+            let text = document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML= text.replace("Microsoft", "WS3chool");
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>String to Array</title>
+</head>
+
+<body>
+    <h2>String to Array using split method</h2>
+    <p id="demo"></p>
+    <script>
+        let text = "Hello";
+        const myArr = text.split("");
+        text = "";
+        for (let i = 0; i < myArr.length; i++) {
+            text += myArr[i] + "<br>"
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+</body>
+
+</html>

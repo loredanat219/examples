@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>if else, ternary operator</title>
+</head>
+
+<body>
+    <h1>if else, ternary operator</h1>
+
+    <input id="age" value="18" ; />
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            age = Number(document.getElementById("age").value);
+            if (isNaN(age)) {
+                votable = "Input is not a number";
+            } else {
+                votable = (age < 18) ? "too young to vote" : "Old enough, can vote";
+            }
+            document.getElementById("demo").innerHTML = votable;
+        }
+    </script>
+</body>
+
+</html>

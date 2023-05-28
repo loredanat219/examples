@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>For in Object Example</title>
+</head>
+
+<body>
+    <h1>For in Object Example</h1>
+    <p id="demo"></p>
+    <script>
+        const person = { name: "John", lastname: "Doe", age: 40 };
+        let text = "";
+        for (let x in person) {
+            text += person[x] + " ";
+        }
+
+        document.getElementById("demo").innerHTML= text;
+    </script>
+</body>
+
+</html>

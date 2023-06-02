@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>For Of Loops</title>
+</head>
+
+<body>
+    <h1>
+        For Of loops
+    </h1>
+    <p id="demo"></p>
+    <script>
+        const fruits = ["apples", "pears", "watermellon", "kiwi"];
+        let text = "";
+        for (let x of fruits) {
+            text += x + " ";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>

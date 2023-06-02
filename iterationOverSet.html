@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Iteration Over Set</title>
+</head>
+
+<body>
+    <h1>Iteration Over Set</h1>
+    <p id="demo"></p>
+    <script>
+        const letters = new Set(["a", "b", "c"]);
+        let text = "";
+        for (const x of letters) {
+            text += x + "<br>";
+        }
+    
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
